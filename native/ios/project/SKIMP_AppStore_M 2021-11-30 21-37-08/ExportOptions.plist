@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>skimp.member.store</key>
+		<string>SKIMP MEMBER STORE 2022.08</string>
+		<key>skimp.member.store.NotificationService</key>
+		<string>SKIMP MEMBER STORE NS 2022.08</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>6ACD974A900A59106EAA64CA229BB75A09C0A720</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>3PFZ55RBTG</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>

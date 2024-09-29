@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SKIMP_AppStore_M.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>6ACD974A900A59106EAA64CA229BB75A09C0A720</string>
+				<key>dateExpires</key>
+				<string>2024/08/28</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>6ACD974A900A59106EAA64CA229BB75A09C0A720</string>
+						<key>dateExpires</key>
+						<string>2024/08/28</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>U7684W3V9U.skimp.member.store.NotificationService</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>3PFZ55RBTG</string>
+						<key>get-task-allow</key>
+						<false/>
+						<key>keychain-access-groups</key>
+						<array>
+							<string>U7684W3V9U.SKIMemberStoreInfo</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<string>NotificationService.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>92e1a265-4401-4795-9201-84ffa6cab2ac</string>
+						<key>name</key>
+						<string>SKIMP MEMBER STORE NS 2022.08</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3PFZ55RBTG</string>
+						<key>name</key>
+						<string>SK Telecom Co.,Ltd.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>U7684W3V9U.skimp.member.store</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>3PFZ55RBTG</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>U7684W3V9U.KC_SSM_SERIAL_NUMBER</string>
+					<string>U7684W3V9U.KC_SSM_MAC_ADDRESS</string>
+					<string>U7684W3V9U.KC_SSM_SERVER_URL</string>
+					<string>U7684W3V9U.SKIMemberStoreInfo</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>SKIMP_AppStore_M.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>22e6e404-0a87-4ccc-8fb9-bfac4aeaaf5e</string>
+				<key>name</key>
+				<string>SKIMP MEMBER STORE 2022.08</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>3PFZ55RBTG</string>
+				<key>name</key>
+				<string>SK Telecom Co.,Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

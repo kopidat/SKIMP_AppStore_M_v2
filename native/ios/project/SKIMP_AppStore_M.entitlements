@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>U7684W3V9U.KC_SSM_SERIAL_NUMBER</string>
+		<string>U7684W3V9U.KC_SSM_MAC_ADDRESS</string>
+		<string>U7684W3V9U.KC_SSM_SERVER_URL</string>
+		<string>$(AppIdentifierPrefix)SKIMemberStoreInfo</string>
+	</array>
+</dict>
+</plist>

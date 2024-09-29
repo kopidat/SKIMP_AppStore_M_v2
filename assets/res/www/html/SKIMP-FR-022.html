@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="../img/favicon.ico" />
+	<link rel="apple-touch-icon" href="../img/favicon.ico" />
+	<link rel="stylesheet" href="../css/morpheus-style.css" />
+
+	<title>설정 &gt; SK innovation</title>
+</head>
+
+<body>
+	<div class="wrapper white">
+		<header class="header">
+			<h1>1:1 문의</h1>
+			<button class="prev"></button>
+		</header>
+		<div class="content" id="content">
+			<div class="set-box">
+				<h3>문의 분류<em class="required-txt">*</em></h3>
+				<div class="control br_t1">
+					<section>
+						<h3>문의 분류</h3>
+						<button type="button" id="qnaType" class="btn-select w100p">선택</button>
+					</section>
+					<section id="appSection" class="none">
+						<h3>APP선택</h3>
+						<button type="button" id="category" class="btn-select w100p" style="margin-bottom: 1rem">전체</button>
+						<button type="button" id="appInfo" class="btn-select w100p" value="">선택</button>
+					</section>
+				</div>
+				<h3 style="margin-top: 3rem">문의사항 입력<em class="required-txt">*</em></h3>
+				<div class="control br_t1">
+					<section>
+						<input type="text" id="qnaSubject" class="input-type w100p" placeholder="제목을 입력해주세요. (15자 이내)" maxlength="15">
+						<p class="input_wrap" style="margin-top: 1rem">
+							<textarea id="qnaContent" class="textarea" data-instance-class="textArea" placeholder="내용을 입력해주세요." title="텍스트 영역 입력박스"></textarea>
+							<button type="button" class="input_del none" data-instance-class="delete">글삭제</button>
+						</p>
+					</section>
+					<p class="btn-box w100p" style="margin-top: 2rem">
+						<button type="button" id="btnQnaReg" class="btn-primary w100p" disabled="disabled">문의하기</button>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="btn-footer" id="btnFooter">
+			<button class="btn-group" id="btnGroup">업무앱</button>
+			<button class="btn-update2" id="btnMyapp">마이앱</button>
+			<button class="btn-notice on" id="btnNotice">공지사항</button>
+			<button class="btn-set" id="btnSetting">더보기</button>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="../js/mcore.min.js"></script>
+</html>
